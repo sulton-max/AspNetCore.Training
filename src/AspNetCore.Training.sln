@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Expressions", "Expressions", "{B98645D8-D71F-4BCB-9E60-A9AAAC740A3A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Expressions.Simple", "Expressions\Expressions.Simple\Expressions.Simple.csproj", "{4A8B4120-C939-4216-9828-6F0D6E8AF287}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Expressions.Sample", "Expressions\Expressions.Sample\Expressions.Sample.csproj", "{1B69ACDF-CD38-458F-B47E-A863652F74C9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4A8B4120-C939-4216-9828-6F0D6E8AF287}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A8B4120-C939-4216-9828-6F0D6E8AF287}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A8B4120-C939-4216-9828-6F0D6E8AF287}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A8B4120-C939-4216-9828-6F0D6E8AF287}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B69ACDF-CD38-458F-B47E-A863652F74C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B69ACDF-CD38-458F-B47E-A863652F74C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B69ACDF-CD38-458F-B47E-A863652F74C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B69ACDF-CD38-458F-B47E-A863652F74C9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4A8B4120-C939-4216-9828-6F0D6E8AF287} = {B98645D8-D71F-4BCB-9E60-A9AAAC740A3A}
+		{1B69ACDF-CD38-458F-B47E-A863652F74C9} = {B98645D8-D71F-4BCB-9E60-A9AAAC740A3A}
+	EndGlobalSection
+EndGlobal

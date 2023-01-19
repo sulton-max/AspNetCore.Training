@@ -1,6 +1,6 @@
 ﻿using System.Linq.Expressions;
 
-namespace Simple;
+namespace Expressions.Simple;
 
 /// <summary>
 /// Provides extensions to build predicate expressions

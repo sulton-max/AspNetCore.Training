@@ -1,5 +1,5 @@
 ﻿using System.Linq.Expressions;
-using Simple;
+using Expressions.Simple;
 
 // Filtering resource
 var users = new List<User>
@@ -92,40 +92,43 @@ match4.ForEach(x =>
     Console.WriteLine($"{product?.Name}");
 });
 
-// Task 4 - match any resource with one expression ?!
-
-/// <summary>
-/// Represents common properties for entity
-/// </summary>
-public interface IEntity
+namespace Expressions.Simple
 {
-}
+    // Task 4 - match any resource with one expression ?!
 
-/// <summary>
-/// Represents system user
-/// </summary>
-public class User : IEntity
-{
-    public User(string firstName, string lastName)
+    /// <summary>
+    /// Represents common properties for entity
+    /// </summary>
+    public interface IEntity
     {
-        FirstName = firstName;
-        LastName = lastName;
     }
 
-    public string FirstName { get; set; }
-
-    public string LastName { get; set; }
-}
-
-/// <summary>
-/// Represents product that can be ordered
-/// </summary>
-public class Product : IEntity
-{
-    public Product(string name)
+    /// <summary>
+    /// Represents system user
+    /// </summary>
+    public class User : IEntity
     {
-        Name = name;
+        public User(string firstName, string lastName)
+        {
+            FirstName = firstName;
+            LastName = lastName;
+        }
+
+        public string FirstName { get; set; }
+
+        public string LastName { get; set; }
     }
 
-    public string Name { get; set; }
+    /// <summary>
+    /// Represents product that can be ordered
+    /// </summary>
+    public class Product : IEntity
+    {
+        public Product(string name)
+        {
+            Name = name;
+        }
+
+        public string Name { get; set; }
+    }
 }
